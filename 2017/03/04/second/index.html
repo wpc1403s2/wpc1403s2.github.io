@@ -1,0 +1,106 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Angular · apollo</title><meta name="description" content="Angular - wpc"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://hopejiu.me/atom.xml" title="apollo"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="http://weibo.com/sunchongsheng" target="_blank" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="https://github.com/pinggod" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">Angular</h1><div class="post-info">Mar 4, 2017</div><div class="post-content"><h2 id="推荐工具"><a href="#推荐工具" class="headerlink" title="推荐工具"></a>推荐工具</h2><ul>
+<li>在线编辑器<ul>
+<li><a href="http://codepen.io/" target="_blank" rel="external">http://codepen.io/</a></li>
+<li><a href="https://jsfiddle.net/" target="_blank" rel="external">https://jsfiddle.net/</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="Angular-简介"><a href="#Angular-简介" class="headerlink" title="Angular 简介"></a>Angular 简介</h2><h3 id="什么是-AngularJS"><a href="#什么是-AngularJS" class="headerlink" title="什么是 AngularJS"></a>什么是 AngularJS</h3><ul>
+<li>一款非常优秀的前端高级 JS 框架</li>
+<li>最早由 Misko Hevery 等人创建</li>
+<li>2009 年被 Google 公式收购，用于其多款产品</li>
+<li>目前有一个全职的开发团队继续开发和维护这个库</li>
+<li>有了这一类框架就可以轻松构建 SPA 应用程序</li>
+<li>轻松构建 SPA（单一页面应用程序）</li>
+<li>单一页面应用程序：<ul>
+<li>只有一个页面（整个应用的一个载体）</li>
+<li>内容全部是由AJAX方式呈现出啦的</li>
+</ul>
+</li>
+<li>其核心就是通过指令扩展了 HTML，通过表达式绑定数据到 HTML。</li>
+</ul>
+<h3 id="为什么使用-AngularJS"><a href="#为什么使用-AngularJS" class="headerlink" title="为什么使用 AngularJS"></a>为什么使用 AngularJS</h3><ul>
+<li>更少的代码，实现更强劲的功能</li>
+<li>将一些以前在后台开发中使用的思想带入前端开发</li>
+<li>带领当前市面上的框架走向模式化或者架构化</li>
+</ul>
+<h3 id="AngularJS-的核心特性"><a href="#AngularJS-的核心特性" class="headerlink" title="AngularJS 的核心特性"></a>AngularJS 的核心特性</h3><ul>
+<li>MVC</li>
+<li>模块化</li>
+<li>自动化双向数据绑定</li>
+<li>指令系统</li>
+</ul>
+<h3 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h3><ul>
+<li><a href="http://www.apjs.net/" target="_blank" rel="external">http://www.apjs.net/</a></li>
+<li><a href="http://www.angularjs.cn/" target="_blank" rel="external">http://www.angularjs.cn/</a></li>
+<li><a href="http://docs.angularjs.cn/api" target="_blank" rel="external">http://docs.angularjs.cn/api</a></li>
+<li><a href="https://material.angularjs.org" target="_blank" rel="external">https://material.angularjs.org</a></li>
+<li><a href="http://angular-ui.github.io/" target="_blank" rel="external">http://angular-ui.github.io/</a></li>
+</ul>
+<h2 id="Angular-上手"><a href="#Angular-上手" class="headerlink" title="Angular 上手"></a>Angular 上手</h2><h3 id="安装-Angular"><a href="#安装-Angular" class="headerlink" title="安装 Angular"></a>安装 Angular</h3><ul>
+<li>下载 Angular.js 的包<ul>
+<li><a href="https://github.com/angular/angular.js/releases" target="_blank" rel="external">https://github.com/angular/angular.js/releases</a></li>
+</ul>
+</li>
+<li>使用 CDN 上的 Angular.js<ul>
+<li><a href="http://apps.bdimg.com/libs/angular.js/1.4.9/angular.min.js" target="_blank" rel="external">http://apps.bdimg.com/libs/angular.js/1.4.9/angular.min.js</a></li>
+</ul>
+</li>
+<li><p>使用 Bower 安装</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">bower install angular</div></pre></td></tr></table></figure>
+</li>
+<li><p>使用 NPM 安装</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install angular</div></pre></td></tr></table></figure>
+</li>
+<li><p>每种方式安装包，本质都是将angular的库下载到当前文件夹中</p>
+</li>
+</ul>
+<h3 id="简单示例"><a href="#简单示例" class="headerlink" title="简单示例"></a>简单示例</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure>
+<ul>
+<li><p>angular中最重要的概念是指令（directive）</p>
+</li>
+<li><p>ng-model 是双向数据绑定的指令，效果就是将当前元素的value属性和模型中的user.name建立绑定关系</p>
+</li>
+<li><p>JS: BOM DOM ES</p>
+</li>
+</ul>
+<h3 id="分析-Angular-示例"><a href="#分析-Angular-示例" class="headerlink" title="分析 Angular 示例"></a>分析 Angular 示例</h3><h3 id="使用总结"><a href="#使用总结" class="headerlink" title="使用总结"></a>使用总结</h3><h3 id="运行官方文档"><a href="#运行官方文档" class="headerlink" title="运行官方文档"></a>运行官方文档</h3><h2 id="CDN的优势"><a href="#CDN的优势" class="headerlink" title="CDN的优势"></a>CDN的优势</h2><p>Content Dev</p>
+<ul>
+<li>快</li>
+<li>节省自己服务器的带宽压力和流量</li>
+</ul>
+<h2 id="Angular-基础概念"><a href="#Angular-基础概念" class="headerlink" title="Angular 基础概念"></a>Angular 基础概念</h2><h3 id="MVC-思想"><a href="#MVC-思想" class="headerlink" title="MVC 思想"></a>MVC 思想</h3><h4 id="什么是-MVC-思想"><a href="#什么是-MVC-思想" class="headerlink" title="什么是 MVC 思想"></a>什么是 MVC 思想</h4><ul>
+<li>将应用程序的组成划分为三个部分：Model View Controller</li>
+<li>控制器的作用就是初始化模型用的；</li>
+<li>模型就是用于存储数据的</li>
+<li>视图用于展现数据</li>
+</ul>
+<ul>
+<li>登陆案例</li>
+<li>模型<ul>
+<li>我们数据库中所有用户的信息</li>
+<li>接受控制器传来的用户名和密码进行校验的业务逻辑并返回true/false</li>
+</ul>
+</li>
+<li>控制器<ul>
+<li>接受用户在界面上填写的用户名和密码</li>
+<li>将用户名和密码交给模型</li>
+</ul>
+</li>
+<li>视图<ul>
+<li>给用户呈现一个表单</li>
+<li>接受用户输入内容，并将其提交给控制器</li>
+<li>根据控制器返回的数据，响应用户页面</li>
+</ul>
+</li>
+</ul>
+<h3 id="模块（Module）"><a href="#模块（Module）" class="headerlink" title="模块（Module）"></a>模块（Module）</h3><ul>
+<li>划分应用程序结构</li>
+<li>我们可以通过angular.module创建一个模块</li>
+<li>angular.module方法传递两个参数才是创建模块，一个参数是获取模块</li>
+</ul>
+<h3 id="控制器（Controller）"><a href="#控制器（Controller）" class="headerlink" title="控制器（Controller）"></a>控制器（Controller）</h3><ul>
+<li>通过$scope和视图关联</li>
+<li></li>
+</ul>
+<h3 id="视图模型（-scope）"><a href="#视图模型（-scope）" class="headerlink" title="视图模型（$scope）"></a>视图模型（$scope）</h3><h3 id="表达式（Expression）"><a href="#表达式（Expression）" class="headerlink" title="表达式（Expression）"></a>表达式（Expression）</h3><h3 id="单向数据绑定"><a href="#单向数据绑定" class="headerlink" title="单向数据绑定"></a>单向数据绑定</h3><h3 id="双向数据绑定"><a href="#双向数据绑定" class="headerlink" title="双向数据绑定"></a>双向数据绑定</h3><h2 id="Angular-指令系统"><a href="#Angular-指令系统" class="headerlink" title="Angular 指令系统"></a>Angular 指令系统</h2></div></article></div></main><footer><div class="paginator"><a href="/2017/03/04/fitst-article/" class="next">NEXT</a></div><div class="copyright"><p>© 2015 - 2017 <a href="http://hopejiu.me">wpc</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>
