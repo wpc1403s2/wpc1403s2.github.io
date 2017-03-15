@@ -5,15 +5,41 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hopejiu.me/"/>
-  <updated>2017-03-13T13:10:50.310Z</updated>
+  <updated>2017-03-15T09:22:34.590Z</updated>
   <id>http://hopejiu.me/</id>
   
   <author>
-    <name>wpc</name>
+    <name>汪鹏程</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Demo</title>
+    <link href="http://hopejiu.me/2017/03/15/Demo/"/>
+    <id>http://hopejiu.me/2017/03/15/Demo/</id>
+    <published>2017-03-15T05:01:43.000Z</published>
+    <updated>2017-03-15T09:22:34.590Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="练习案例"><a href="#练习案例" class="headerlink" title="练习案例"></a>练习案例</h2><ul>
+<li><a href="https://wpc1403s2.github.io/demo/code/index.html" target="_blank" rel="external">响应式布局</a><br>// 未解决github pages 在chrome浏览器无法显示轮播图</li>
+<li><a href="https://wpc1403s2.github.io/demo/demo02/page/index.html" target="_blank" rel="external">研究生信息就业网</a></li>
+<li><a href="http://www.liushihaochi.com" target="_blank" rel="external">口腔医院</a></li>
+<li><a href="https://wpc1403s2.github.io/demo/01.html" target="_blank" rel="external">面向对象思想写 Triang构造器</a></li>
+<li>2017春季百度IFE <a href="https://wpc1403s2.github.io/Baidu_IFE_2017" target="_blank" rel="external">task01</a> /<a href="https://wpc1403s2.github.io/Baidu_IFE_2017/02/" target="_blank" rel="external">task02</a>/<a href="https://wpc1403s2.github.io/Baidu_IFE_2017/03/" target="_blank" rel="external">task03</a>/<a href="https://wpc1403s2.github.io/Baidu_IFE_2017/04/" target="_blank" rel="external">task04</a>…</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;练习案例&quot;&gt;&lt;a href=&quot;#练习案例&quot; class=&quot;headerlink&quot; title=&quot;练习案例&quot;&gt;&lt;/a&gt;练习案例&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://wpc1403s2.github.io/demo/code/index.htm
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>初学Ajax</title>
